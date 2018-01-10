@@ -195,7 +195,7 @@ describe "#display_board in 'lib/display_board.rb" do
       # and make a few simple edits to convert the previous example to this
       # example's situation.
       it 'prints arbitrary arrangements of the board' do
-        board = ["X", "X", "X", "X", "O", "O", "X", "O", "O"]
+        board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 
         output = capture_puts{ display_board(board) }
         rows = output.split("\n")
